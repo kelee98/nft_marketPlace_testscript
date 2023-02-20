@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>drops sanity test result</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">drops sanity test result</h2>
+                <p class='attribute'><strong>Start Time: </strong>2023-01-17 18:54:47</p>
+                <p class='attribute'><strong>Duration: </strong>48.61 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 8, Pass: 6, Error: 2</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>__main__.DropsSanityTest</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_case1</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>비회원일 때 홈 접근 가능
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_case2</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>비회원일 때 1d1d 진입 가능 
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_case3</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>비회원 일때 dfactory 진입 가능
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_case4</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>비회원 일때 market 진입 가능
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_case5</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>비회원 일때 my 페이지 진입 가능
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_case6</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>https://api.qa.klipdrops.com/v2/account/prepare, 응답코드 200, 컨텐츠 유형: date: Tue, 17 Jan 2023 09:55:21 GMT
+content-type: application/json; charset=utf-8
+content-length: 137
+access-control-allow-credentials: true
+access-control-allow-origin: https://qa.klipdrops.com
+vary: Origin
+
+
+drops 로그인 완료
+</p>
+                            </td>
+                        </tr>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test_case7</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">InvalidSelectorException: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+0   chromedriver                        0x000000010d00df38 chromedriver + 4910904
+1   chromedriver                        0x000000010cf8da03 chromedriver + 4385283
+2   chromedriver                        0x000000010cbd2747 chromedriver + 472903
+3   chromedriver                        0x000000010cbd6d28 chromedriver + 490792
+4   chromedriver                        0x000000010cbd69f6 chromedriver + 489974
+5   chromedriver                        0x000000010cbd6dfc chromedriver + 491004
+6   chromedriver                        0x000000010cc16f63 chromedriver + 753507
+7   chromedriver                        0x000000010cc175a1 chromedriver + 755105
+8   chromedriver                        0x000000010cc5ae94 chromedriver + 1031828
+9   chromedriver                        0x000000010cc3d13d chromedriver + 909629
+10  chromedriver                        0x000000010cc5828e chromedriver + 1020558
+11  chromedriver                        0x000000010cc3cee3 chromedriver + 909027
+12  chromedriver                        0x000000010cc0730c chromedriver + 688908
+13  chromedriver                        0x000000010cc0888e chromedriver + 694414
+14  chromedriver                        0x000000010cfdb1de chromedriver + 4702686
+15  chromedriver                        0x000000010cfdfb19 chromedriver + 4721433
+16  chromedriver                        0x000000010cfe728e chromedriver + 4752014
+17  chromedriver                        0x000000010cfe091a chromedriver + 4725018
+18  chromedriver                        0x000000010cfb4b02 chromedriver + 4545282
+19  chromedriver                        0x000000010cfff888 chromedriver + 4851848
+20  chromedriver                        0x000000010cfffa05 chromedriver + 4852229
+21  chromedriver                        0x000000010d015e5f chromedriver + 4943455
+22  libsystem_pthread.dylib             0x00007fff203d08fc _pthread_start + 224
+23  libsystem_pthread.dylib             0x00007fff203cc443 thread_start + 15
+</p><p style="color:maroon;">Traceback (most recent call last):
+  File "/Users/kate.lee/Desktop/drops sanity test/selenium_sanity_test.py", line 129, in test_case7
+    self.driver.find_element(By.CLASS_NAME,"//span[text()='마이 컬랙션']").click()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+0   chromedriver                        0x000000010d00df38 chromedriver + 4910904
+1   chromedriver                        0x000000010cf8da03 chromedriver + 4385283
+2   chromedriver                        0x000000010cbd2747 chromedriver + 472903
+3   chromedriver                        0x000000010cbd6d28 chromedriver + 490792
+4   chromedriver                        0x000000010cbd69f6 chromedriver + 489974
+5   chromedriver                        0x000000010cbd6dfc chromedriver + 491004
+6   chromedriver                        0x000000010cc16f63 chromedriver + 753507
+7   chromedriver                        0x000000010cc175a1 chromedriver + 755105
+8   chromedriver                        0x000000010cc5ae94 chromedriver + 1031828
+9   chromedriver                        0x000000010cc3d13d chromedriver + 909629
+10  chromedriver                        0x000000010cc5828e chromedriver + 1020558
+11  chromedriver                        0x000000010cc3cee3 chromedriver + 909027
+12  chromedriver                        0x000000010cc0730c chromedriver + 688908
+13  chromedriver                        0x000000010cc0888e chromedriver + 694414
+14  chromedriver                        0x000000010cfdb1de chromedriver + 4702686
+15  chromedriver                        0x000000010cfdfb19 chromedriver + 4721433
+16  chromedriver                        0x000000010cfe728e chromedriver + 4752014
+17  chromedriver                        0x000000010cfe091a chromedriver + 4725018
+18  chromedriver                        0x000000010cfb4b02 chromedriver + 4545282
+19  chromedriver                        0x000000010cfff888 chromedriver + 4851848
+20  chromedriver                        0x000000010cfffa05 chromedriver + 4852229
+21  chromedriver                        0x000000010d015e5f chromedriver + 4943455
+22  libsystem_pthread.dylib             0x00007fff203d08fc _pthread_start + 224
+23  libsystem_pthread.dylib             0x00007fff203cc443 thread_start + 15
+
+</p>
+                            </td>
+                        </tr>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test_case8</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/div/div/div[2]/section[2]/div/div[1]/a/div"}
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+0   chromedriver                        0x000000010d00df38 chromedriver + 4910904
+1   chromedriver                        0x000000010cf8da03 chromedriver + 4385283
+2   chromedriver                        0x000000010cbd2747 chromedriver + 472903
+3   chromedriver                        0x000000010cc1734c chromedriver + 754508
+4   chromedriver                        0x000000010cc175a1 chromedriver + 755105
+5   chromedriver                        0x000000010cc5ae94 chromedriver + 1031828
+6   chromedriver                        0x000000010cc3d13d chromedriver + 909629
+7   chromedriver                        0x000000010cc5828e chromedriver + 1020558
+8   chromedriver                        0x000000010cc3cee3 chromedriver + 909027
+9   chromedriver                        0x000000010cc0730c chromedriver + 688908
+10  chromedriver                        0x000000010cc0888e chromedriver + 694414
+11  chromedriver                        0x000000010cfdb1de chromedriver + 4702686
+12  chromedriver                        0x000000010cfdfb19 chromedriver + 4721433
+13  chromedriver                        0x000000010cfe728e chromedriver + 4752014
+14  chromedriver                        0x000000010cfe091a chromedriver + 4725018
+15  chromedriver                        0x000000010cfb4b02 chromedriver + 4545282
+16  chromedriver                        0x000000010cfff888 chromedriver + 4851848
+17  chromedriver                        0x000000010cfffa05 chromedriver + 4852229
+18  chromedriver                        0x000000010d015e5f chromedriver + 4943455
+19  libsystem_pthread.dylib             0x00007fff203d08fc _pthread_start + 224
+20  libsystem_pthread.dylib             0x00007fff203cc443 thread_start + 15
+</p><p style="color:maroon;">Traceback (most recent call last):
+  File "/Users/kate.lee/Desktop/drops sanity test/selenium_sanity_test.py", line 137, in test_case8
+    self.driver.find_element(By.XPATH,"/html/body/div/div/div/div[2]/section[2]/div/div[1]/a/div").click()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/div/div/div[2]/section[2]/div/div[1]/a/div"}
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+0   chromedriver                        0x000000010d00df38 chromedriver + 4910904
+1   chromedriver                        0x000000010cf8da03 chromedriver + 4385283
+2   chromedriver                        0x000000010cbd2747 chromedriver + 472903
+3   chromedriver                        0x000000010cc1734c chromedriver + 754508
+4   chromedriver                        0x000000010cc175a1 chromedriver + 755105
+5   chromedriver                        0x000000010cc5ae94 chromedriver + 1031828
+6   chromedriver                        0x000000010cc3d13d chromedriver + 909629
+7   chromedriver                        0x000000010cc5828e chromedriver + 1020558
+8   chromedriver                        0x000000010cc3cee3 chromedriver + 909027
+9   chromedriver                        0x000000010cc0730c chromedriver + 688908
+10  chromedriver                        0x000000010cc0888e chromedriver + 694414
+11  chromedriver                        0x000000010cfdb1de chromedriver + 4702686
+12  chromedriver                        0x000000010cfdfb19 chromedriver + 4721433
+13  chromedriver                        0x000000010cfe728e chromedriver + 4752014
+14  chromedriver                        0x000000010cfe091a chromedriver + 4725018
+15  chromedriver                        0x000000010cfb4b02 chromedriver + 4545282
+16  chromedriver                        0x000000010cfff888 chromedriver + 4851848
+17  chromedriver                        0x000000010cfffa05 chromedriver + 4852229
+18  chromedriver                        0x000000010d015e5f chromedriver + 4943455
+19  libsystem_pthread.dylib             0x00007fff203d08fc _pthread_start + 224
+20  libsystem_pthread.dylib             0x00007fff203cc443 thread_start + 15
+
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 8, Pass: 6, Error: 2 -- Duration: 48.61 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html

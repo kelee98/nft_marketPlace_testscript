@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>drops sanity test result</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">drops sanity test result</h2>
+                <p class='attribute'><strong>Start Time: </strong>2023-02-20 10:54:41</p>
+                <p class='attribute'><strong>Duration: </strong>0 ms</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 1, Pass: 0, Error: 1</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>setUpClass (__main__</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='warning'>
+                            <td class="col-xs-10">DropsSanityTest)</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div/div[2]/div/div/div/div[2]/a"}
+  (Session info: chrome=110.0.5481.100)
+Stacktrace:
+0   chromedriver                        0x000000010b71b138 chromedriver + 4923704
+1   chromedriver                        0x000000010b6939d3 chromedriver + 4368851
+2   chromedriver                        0x000000010b2dc787 chromedriver + 472967
+3   chromedriver                        0x000000010b320ba3 chromedriver + 752547
+4   chromedriver                        0x000000010b320df1 chromedriver + 753137
+5   chromedriver                        0x000000010b367734 chromedriver + 1042228
+6   chromedriver                        0x000000010b349fdd chromedriver + 921565
+7   chromedriver                        0x000000010b364c0f chromedriver + 1031183
+8   chromedriver                        0x000000010b349d23 chromedriver + 920867
+9   chromedriver                        0x000000010b310a4b chromedriver + 686667
+10  chromedriver                        0x000000010b312044 chromedriver + 692292
+11  chromedriver                        0x000000010b6e68fe chromedriver + 4708606
+12  chromedriver                        0x000000010b6ebe22 chromedriver + 4730402
+13  chromedriver                        0x000000010b6f46bf chromedriver + 4765375
+14  chromedriver                        0x000000010b6ece80 chromedriver + 4734592
+15  chromedriver                        0x000000010b6bd975 chromedriver + 4540789
+16  chromedriver                        0x000000010b70ee78 chromedriver + 4873848
+17  chromedriver                        0x000000010b70eff5 chromedriver + 4874229
+18  chromedriver                        0x000000010b7236de chromedriver + 4957918
+19  libsystem_pthread.dylib             0x00007fff203ba8fc _pthread_start + 224
+20  libsystem_pthread.dylib             0x00007fff203b6443 thread_start + 15
+</p><p style="color:maroon;">Traceback (most recent call last):
+  File "/Users/kate.lee/Desktop/drops sanity test/selenium_sanity_test.py", line 26, in setUpClass
+    if cls.driver.find_element(By.XPATH,"/html/body/div[2]/div/div[2]/div/div/div/div[2]/a") :
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div/div[2]/div/div/div/div[2]/a"}
+  (Session info: chrome=110.0.5481.100)
+Stacktrace:
+0   chromedriver                        0x000000010b71b138 chromedriver + 4923704
+1   chromedriver                        0x000000010b6939d3 chromedriver + 4368851
+2   chromedriver                        0x000000010b2dc787 chromedriver + 472967
+3   chromedriver                        0x000000010b320ba3 chromedriver + 752547
+4   chromedriver                        0x000000010b320df1 chromedriver + 753137
+5   chromedriver                        0x000000010b367734 chromedriver + 1042228
+6   chromedriver                        0x000000010b349fdd chromedriver + 921565
+7   chromedriver                        0x000000010b364c0f chromedriver + 1031183
+8   chromedriver                        0x000000010b349d23 chromedriver + 920867
+9   chromedriver                        0x000000010b310a4b chromedriver + 686667
+10  chromedriver                        0x000000010b312044 chromedriver + 692292
+11  chromedriver                        0x000000010b6e68fe chromedriver + 4708606
+12  chromedriver                        0x000000010b6ebe22 chromedriver + 4730402
+13  chromedriver                        0x000000010b6f46bf chromedriver + 4765375
+14  chromedriver                        0x000000010b6ece80 chromedriver + 4734592
+15  chromedriver                        0x000000010b6bd975 chromedriver + 4540789
+16  chromedriver                        0x000000010b70ee78 chromedriver + 4873848
+17  chromedriver                        0x000000010b70eff5 chromedriver + 4874229
+18  chromedriver                        0x000000010b7236de chromedriver + 4957918
+19  libsystem_pthread.dylib             0x00007fff203ba8fc _pthread_start + 224
+20  libsystem_pthread.dylib             0x00007fff203b6443 thread_start + 15
+
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 1, Pass: 0, Error: 1 -- Duration: 0 ms
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html

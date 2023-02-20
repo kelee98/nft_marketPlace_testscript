@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>drops sanity test result</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">drops sanity test result</h2>
+                <p class='attribute'><strong>Start Time: </strong>2023-01-03 13:46:18</p>
+                <p class='attribute'><strong>Duration: </strong>46.41 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 1, Pass: 0, Error: 1</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>__main__.DropsSanityTest</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test_case1</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>https://api.qa.klipdrops.com/v2/account/prepare, 응답코드 200, 컨텐츠 유형: date: Tue, 03 Jan 2023 04:46:27 GMT
+content-type: application/json; charset=utf-8
+content-length: 137
+access-control-allow-credentials: true
+access-control-allow-origin: https://qa.klipdrops.com
+vary: Origin
+
+
+good
+</p><p style="color:maroon;">TimeoutException: Message: Timed out after 10s waiting for request matching .*/v2/wallet/klip/result?request_key=.*
+</p><p style="color:maroon;">Traceback (most recent call last):
+  File "/Users/kate.lee/Desktop/drops sanity test/selenium_sanity_test.py", line 118, in test_case1
+    request = self.driver.wait_for_request('.*/v2/wallet/klip/result?request_key=.*')
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/seleniumwire/inspect.py", line 83, in wait_for_request
+    raise TimeoutException('Timed out after {}s waiting for request matching {}'.format(timeout, pat))
+selenium.common.exceptions.TimeoutException: Message: Timed out after 10s waiting for request matching .*/v2/wallet/klip/result?request_key=.*
+
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 1, Pass: 0, Error: 1 -- Duration: 46.41 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html

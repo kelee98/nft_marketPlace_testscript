@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>drops sanity test result</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">drops sanity test result</h2>
+                <p class='attribute'><strong>Start Time: </strong>2023-01-19 17:40:44</p>
+                <p class='attribute'><strong>Duration: </strong>246.02 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 9, Pass: 6, Error: 3</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>__main__.DropsSanityTest</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_case1</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>비회원일 때 홈 접근 가능
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_case2</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>비회원일 때 1d1d 진입 가능 
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_case3</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>비회원 일때 dfactory 진입 가능
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_case4</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>비회원 일때 market 진입 가능
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_case5</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>비회원 일때 my 페이지 진입 가능
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_case6</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>https://api.qa.klipdrops.com/v2/account/prepare, 응답코드 200, 컨텐츠 유형: date: Thu, 19 Jan 2023 08:41:25 GMT
+content-type: application/json; charset=utf-8
+content-length: 137
+access-control-allow-credentials: true
+access-control-allow-origin: https://qa.klipdrops.com
+vary: Origin
+
+
+<Response [401]>
+drops 로그인 완료
+</p>
+                            </td>
+                        </tr>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test_case7</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">NoSuchElementException: Message: no such element: Unable to locate element: {"method":"link text","selector":"My Page"}
+  (Session info: chrome=109.0.5414.87)
+Stacktrace:
+0   chromedriver                        0x0000000102dd8fa8 chromedriver + 4886440
+1   chromedriver                        0x0000000102d56643 chromedriver + 4351555
+2   chromedriver                        0x00000001029a4b27 chromedriver + 477991
+3   chromedriver                        0x00000001029e976c chromedriver + 759660
+4   chromedriver                        0x00000001029e99c1 chromedriver + 760257
+5   chromedriver                        0x0000000102a2d204 chromedriver + 1036804
+6   chromedriver                        0x0000000102a0f5fd chromedriver + 914941
+7   chromedriver                        0x0000000102a2a5fe chromedriver + 1025534
+8   chromedriver                        0x0000000102a0f3a3 chromedriver + 914339
+9   chromedriver                        0x00000001029d957f chromedriver + 693631
+10  chromedriver                        0x00000001029dab1e chromedriver + 699166
+11  chromedriver                        0x0000000102da5b9e chromedriver + 4676510
+12  chromedriver                        0x0000000102daa91e chromedriver + 4696350
+13  chromedriver                        0x0000000102db219f chromedriver + 4727199
+14  chromedriver                        0x0000000102dab81a chromedriver + 4700186
+15  chromedriver                        0x0000000102d7ea62 chromedriver + 4516450
+16  chromedriver                        0x0000000102dca8c8 chromedriver + 4827336
+17  chromedriver                        0x0000000102dcaa45 chromedriver + 4827717
+18  chromedriver                        0x0000000102de07ef chromedriver + 4917231
+19  libsystem_pthread.dylib             0x00007fff203578fc _pthread_start + 224
+20  libsystem_pthread.dylib             0x00007fff20353443 thread_start + 15
+</p><p style="color:maroon;">Traceback (most recent call last):
+  File "/Users/kate.lee/Desktop/drops sanity test/selenium_sanity_test.py", line 127, in test_case7
+    self.driver.find_element(By.LINK_TEXT, "My Page").click()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"link text","selector":"My Page"}
+  (Session info: chrome=109.0.5414.87)
+Stacktrace:
+0   chromedriver                        0x0000000102dd8fa8 chromedriver + 4886440
+1   chromedriver                        0x0000000102d56643 chromedriver + 4351555
+2   chromedriver                        0x00000001029a4b27 chromedriver + 477991
+3   chromedriver                        0x00000001029e976c chromedriver + 759660
+4   chromedriver                        0x00000001029e99c1 chromedriver + 760257
+5   chromedriver                        0x0000000102a2d204 chromedriver + 1036804
+6   chromedriver                        0x0000000102a0f5fd chromedriver + 914941
+7   chromedriver                        0x0000000102a2a5fe chromedriver + 1025534
+8   chromedriver                        0x0000000102a0f3a3 chromedriver + 914339
+9   chromedriver                        0x00000001029d957f chromedriver + 693631
+10  chromedriver                        0x00000001029dab1e chromedriver + 699166
+11  chromedriver                        0x0000000102da5b9e chromedriver + 4676510
+12  chromedriver                        0x0000000102daa91e chromedriver + 4696350
+13  chromedriver                        0x0000000102db219f chromedriver + 4727199
+14  chromedriver                        0x0000000102dab81a chromedriver + 4700186
+15  chromedriver                        0x0000000102d7ea62 chromedriver + 4516450
+16  chromedriver                        0x0000000102dca8c8 chromedriver + 4827336
+17  chromedriver                        0x0000000102dcaa45 chromedriver + 4827717
+18  chromedriver                        0x0000000102de07ef chromedriver + 4917231
+19  libsystem_pthread.dylib             0x00007fff203578fc _pthread_start + 224
+20  libsystem_pthread.dylib             0x00007fff20353443 thread_start + 15
+
+</p>
+                            </td>
+                        </tr>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test_case8</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/div/div/div/div/div/div/div[6]/a[2]"}
+  (Session info: chrome=109.0.5414.87)
+Stacktrace:
+0   chromedriver                        0x0000000102dd8fa8 chromedriver + 4886440
+1   chromedriver                        0x0000000102d56643 chromedriver + 4351555
+2   chromedriver                        0x00000001029a4b27 chromedriver + 477991
+3   chromedriver                        0x00000001029e976c chromedriver + 759660
+4   chromedriver                        0x00000001029e99c1 chromedriver + 760257
+5   chromedriver                        0x0000000102a2d204 chromedriver + 1036804
+6   chromedriver                        0x0000000102a0f5fd chromedriver + 914941
+7   chromedriver                        0x0000000102a2a5fe chromedriver + 1025534
+8   chromedriver                        0x0000000102a0f3a3 chromedriver + 914339
+9   chromedriver                        0x00000001029d957f chromedriver + 693631
+10  chromedriver                        0x00000001029dab1e chromedriver + 699166
+11  chromedriver                        0x0000000102da5b9e chromedriver + 4676510
+12  chromedriver                        0x0000000102daa91e chromedriver + 4696350
+13  chromedriver                        0x0000000102db219f chromedriver + 4727199
+14  chromedriver                        0x0000000102dab81a chromedriver + 4700186
+15  chromedriver                        0x0000000102d7ea62 chromedriver + 4516450
+16  chromedriver                        0x0000000102dca8c8 chromedriver + 4827336
+17  chromedriver                        0x0000000102dcaa45 chromedriver + 4827717
+18  chromedriver                        0x0000000102de07ef chromedriver + 4917231
+19  libsystem_pthread.dylib             0x00007fff203578fc _pthread_start + 224
+20  libsystem_pthread.dylib             0x00007fff20353443 thread_start + 15
+</p><p style="color:maroon;">Traceback (most recent call last):
+  File "/Users/kate.lee/Desktop/drops sanity test/selenium_sanity_test.py", line 187, in test_case8
+    self.driver.find_element(By.XPATH,"/html/body/div/div/div/div/div/div/div/div[6]/a[2]").click()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/div/div/div/div/div/div/div[6]/a[2]"}
+  (Session info: chrome=109.0.5414.87)
+Stacktrace:
+0   chromedriver                        0x0000000102dd8fa8 chromedriver + 4886440
+1   chromedriver                        0x0000000102d56643 chromedriver + 4351555
+2   chromedriver                        0x00000001029a4b27 chromedriver + 477991
+3   chromedriver                        0x00000001029e976c chromedriver + 759660
+4   chromedriver                        0x00000001029e99c1 chromedriver + 760257
+5   chromedriver                        0x0000000102a2d204 chromedriver + 1036804
+6   chromedriver                        0x0000000102a0f5fd chromedriver + 914941
+7   chromedriver                        0x0000000102a2a5fe chromedriver + 1025534
+8   chromedriver                        0x0000000102a0f3a3 chromedriver + 914339
+9   chromedriver                        0x00000001029d957f chromedriver + 693631
+10  chromedriver                        0x00000001029dab1e chromedriver + 699166
+11  chromedriver                        0x0000000102da5b9e chromedriver + 4676510
+12  chromedriver                        0x0000000102daa91e chromedriver + 4696350
+13  chromedriver                        0x0000000102db219f chromedriver + 4727199
+14  chromedriver                        0x0000000102dab81a chromedriver + 4700186
+15  chromedriver                        0x0000000102d7ea62 chromedriver + 4516450
+16  chromedriver                        0x0000000102dca8c8 chromedriver + 4827336
+17  chromedriver                        0x0000000102dcaa45 chromedriver + 4827717
+18  chromedriver                        0x0000000102de07ef chromedriver + 4917231
+19  libsystem_pthread.dylib             0x00007fff203578fc _pthread_start + 224
+20  libsystem_pthread.dylib             0x00007fff20353443 thread_start + 15
+
+</p>
+                            </td>
+                        </tr>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test_case9</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">NoSuchElementException: Message: no such element: Unable to locate element: {"method":"link text","selector":"Market"}
+  (Session info: chrome=109.0.5414.87)
+Stacktrace:
+0   chromedriver                        0x0000000102dd8fa8 chromedriver + 4886440
+1   chromedriver                        0x0000000102d56643 chromedriver + 4351555
+2   chromedriver                        0x00000001029a4b27 chromedriver + 477991
+3   chromedriver                        0x00000001029e976c chromedriver + 759660
+4   chromedriver                        0x00000001029e99c1 chromedriver + 760257
+5   chromedriver                        0x0000000102a2d204 chromedriver + 1036804
+6   chromedriver                        0x0000000102a0f5fd chromedriver + 914941
+7   chromedriver                        0x0000000102a2a5fe chromedriver + 1025534
+8   chromedriver                        0x0000000102a0f3a3 chromedriver + 914339
+9   chromedriver                        0x00000001029d957f chromedriver + 693631
+10  chromedriver                        0x00000001029dab1e chromedriver + 699166
+11  chromedriver                        0x0000000102da5b9e chromedriver + 4676510
+12  chromedriver                        0x0000000102daa91e chromedriver + 4696350
+13  chromedriver                        0x0000000102db219f chromedriver + 4727199
+14  chromedriver                        0x0000000102dab81a chromedriver + 4700186
+15  chromedriver                        0x0000000102d7ea62 chromedriver + 4516450
+16  chromedriver                        0x0000000102dca8c8 chromedriver + 4827336
+17  chromedriver                        0x0000000102dcaa45 chromedriver + 4827717
+18  chromedriver                        0x0000000102de07ef chromedriver + 4917231
+19  libsystem_pthread.dylib             0x00007fff203578fc _pthread_start + 224
+20  libsystem_pthread.dylib             0x00007fff20353443 thread_start + 15
+</p><p style="color:maroon;">Traceback (most recent call last):
+  File "/Users/kate.lee/Desktop/drops sanity test/selenium_sanity_test.py", line 194, in test_case9
+    self.driver.find_element(By.LINK_TEXT,"Market").click()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"link text","selector":"Market"}
+  (Session info: chrome=109.0.5414.87)
+Stacktrace:
+0   chromedriver                        0x0000000102dd8fa8 chromedriver + 4886440
+1   chromedriver                        0x0000000102d56643 chromedriver + 4351555
+2   chromedriver                        0x00000001029a4b27 chromedriver + 477991
+3   chromedriver                        0x00000001029e976c chromedriver + 759660
+4   chromedriver                        0x00000001029e99c1 chromedriver + 760257
+5   chromedriver                        0x0000000102a2d204 chromedriver + 1036804
+6   chromedriver                        0x0000000102a0f5fd chromedriver + 914941
+7   chromedriver                        0x0000000102a2a5fe chromedriver + 1025534
+8   chromedriver                        0x0000000102a0f3a3 chromedriver + 914339
+9   chromedriver                        0x00000001029d957f chromedriver + 693631
+10  chromedriver                        0x00000001029dab1e chromedriver + 699166
+11  chromedriver                        0x0000000102da5b9e chromedriver + 4676510
+12  chromedriver                        0x0000000102daa91e chromedriver + 4696350
+13  chromedriver                        0x0000000102db219f chromedriver + 4727199
+14  chromedriver                        0x0000000102dab81a chromedriver + 4700186
+15  chromedriver                        0x0000000102d7ea62 chromedriver + 4516450
+16  chromedriver                        0x0000000102dca8c8 chromedriver + 4827336
+17  chromedriver                        0x0000000102dcaa45 chromedriver + 4827717
+18  chromedriver                        0x0000000102de07ef chromedriver + 4917231
+19  libsystem_pthread.dylib             0x00007fff203578fc _pthread_start + 224
+20  libsystem_pthread.dylib             0x00007fff20353443 thread_start + 15
+
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 9, Pass: 6, Error: 3 -- Duration: 246.02 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html

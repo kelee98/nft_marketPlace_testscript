@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>drops sanity test result</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">drops sanity test result</h2>
+                <p class='attribute'><strong>Start Time: </strong>2023-01-17 18:16:30</p>
+                <p class='attribute'><strong>Duration: </strong>35.33 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 7, Pass: 6, Error: 1</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>__main__.DropsSanityTest</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_case1</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>비회원일 때 홈 접근 가능
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_case2</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>비회원일 때 1d1d 진입 가능 
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_case3</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>비회원 일때 dfactory 진입 가능
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_case4</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>비회원 일때 market 진입 가능
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_case5</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>비회원 일때 my 페이지 진입 가능
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_case6</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>https://api.qa.klipdrops.com/v2/account/prepare, 응답코드 200, 컨텐츠 유형: date: Tue, 17 Jan 2023 09:16:43 GMT
+content-type: application/json; charset=utf-8
+content-length: 137
+access-control-allow-credentials: true
+access-control-allow-origin: https://qa.klipdrops.com
+vary: Origin
+
+
+</p>
+                            </td>
+                        </tr>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test_case7</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+0   chromedriver                        0x000000010f25cf38 chromedriver + 4910904
+1   chromedriver                        0x000000010f1dca03 chromedriver + 4385283
+2   chromedriver                        0x000000010ee215bd chromedriver + 472509
+3   chromedriver                        0x000000010ee67b31 chromedriver + 760625
+4   chromedriver                        0x000000010ee58ac3 chromedriver + 699075
+5   chromedriver                        0x000000010ee8c112 chromedriver + 909586
+6   chromedriver                        0x000000010ee580ed chromedriver + 696557
+7   chromedriver                        0x000000010ee8c2ce chromedriver + 910030
+8   chromedriver                        0x000000010eea728e chromedriver + 1020558
+9   chromedriver                        0x000000010ee8bee3 chromedriver + 909027
+10  chromedriver                        0x000000010ee5630c chromedriver + 688908
+11  chromedriver                        0x000000010ee5788e chromedriver + 694414
+12  chromedriver                        0x000000010f22a1de chromedriver + 4702686
+13  chromedriver                        0x000000010f22eb19 chromedriver + 4721433
+14  chromedriver                        0x000000010f23628e chromedriver + 4752014
+15  chromedriver                        0x000000010f22f91a chromedriver + 4725018
+16  chromedriver                        0x000000010f203b02 chromedriver + 4545282
+17  chromedriver                        0x000000010f24e888 chromedriver + 4851848
+18  chromedriver                        0x000000010f24ea05 chromedriver + 4852229
+19  chromedriver                        0x000000010f264e5f chromedriver + 4943455
+20  libsystem_pthread.dylib             0x00007fff203d08fc _pthread_start + 224
+21  libsystem_pthread.dylib             0x00007fff203cc443 thread_start + 15
+</p><p style="color:maroon;">Traceback (most recent call last):
+  File "/Users/kate.lee/Desktop/drops sanity test/selenium_sanity_test.py", line 141, in test_case7
+    self.driver.find_element(By.XPATH,"/html/body/div/div/div/div/div/div/div[2]/div[4]/div/div/div/div[3]/div/label/span[1]/input").click()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 93, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 410, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+0   chromedriver                        0x000000010f25cf38 chromedriver + 4910904
+1   chromedriver                        0x000000010f1dca03 chromedriver + 4385283
+2   chromedriver                        0x000000010ee215bd chromedriver + 472509
+3   chromedriver                        0x000000010ee67b31 chromedriver + 760625
+4   chromedriver                        0x000000010ee58ac3 chromedriver + 699075
+5   chromedriver                        0x000000010ee8c112 chromedriver + 909586
+6   chromedriver                        0x000000010ee580ed chromedriver + 696557
+7   chromedriver                        0x000000010ee8c2ce chromedriver + 910030
+8   chromedriver                        0x000000010eea728e chromedriver + 1020558
+9   chromedriver                        0x000000010ee8bee3 chromedriver + 909027
+10  chromedriver                        0x000000010ee5630c chromedriver + 688908
+11  chromedriver                        0x000000010ee5788e chromedriver + 694414
+12  chromedriver                        0x000000010f22a1de chromedriver + 4702686
+13  chromedriver                        0x000000010f22eb19 chromedriver + 4721433
+14  chromedriver                        0x000000010f23628e chromedriver + 4752014
+15  chromedriver                        0x000000010f22f91a chromedriver + 4725018
+16  chromedriver                        0x000000010f203b02 chromedriver + 4545282
+17  chromedriver                        0x000000010f24e888 chromedriver + 4851848
+18  chromedriver                        0x000000010f24ea05 chromedriver + 4852229
+19  chromedriver                        0x000000010f264e5f chromedriver + 4943455
+20  libsystem_pthread.dylib             0x00007fff203d08fc _pthread_start + 224
+21  libsystem_pthread.dylib             0x00007fff203cc443 thread_start + 15
+
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 7, Pass: 6, Error: 1 -- Duration: 35.33 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html
